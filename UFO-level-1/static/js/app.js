@@ -1,6 +1,3 @@
-// from data.js
-//var tableData = data;
-
 // Using the UFO dataset provided in the form of an array of JavaScript objects, append a table to the web page and add new rows of data for each UFO sighting
 
 // Get a reference to the table body
