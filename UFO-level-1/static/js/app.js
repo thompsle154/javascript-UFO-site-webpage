@@ -44,6 +44,10 @@ function submitForm() {
 
     //Select the input element and get the raw HTML node
     var inputElement = d3.select('#datetime');
+    var InputElement = d3.select('#city');
+    var iNputElement = d3.select('#state');
+    var inPutElement = d3.select('#country');
+    var inpUtElement = d3.select('#shape');
 
     //Get the value property of the input element
     var inputValue = inputElement.property('value');
@@ -52,6 +56,10 @@ function submitForm() {
     console.log(tableData);
 
     var filteredData = tableData.filter(sighting => sighting.datetime === inputValue);
+    var filteredData = tableData.filter(sighting => sighting.city === inputValue);
+    var filteredData = tableData.filter(sighting => sighting.state === inputValue);
+    var filteredData = tableData.filter(sighting => sighting.country === inputValue);
+    var filteredData = tableData.filter(sighting => sighting.shape === inputValue);
 
     console.log(filteredData);
 
