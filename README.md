@@ -1,4 +1,4 @@
-# JavaScript-challenge
+# JavaScript UFO Site webpage
 
 ## About the Project
 
